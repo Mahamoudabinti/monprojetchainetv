@@ -2,10 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: aquamarine;
 }
 
 .navbar {
-    background-color: #094dcc;
+    background-color: #106ecca6;
     overflow: hidden;
 }
 

@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>À propos</title>
+    <link rel="stylesheet" href="css/apropos.css">
 </head>
 <body>
     <!-- inclusion de la navbar -->
-    <%- include('navbar') %>  
+    <%- include("navbar") %>  
     <h1>Bonjour À propos de notre chaîne TV nous proposont différent information de culture</h1>
     <p>Notre chaîne diffuse des vidéos culturelles...</p>
 
@@ -15,6 +16,11 @@
     <iframe width="410" height="340" src="https://www.youtube.com/embed/6i-uNSK-hUw"></iframe>
     <iframe width="410" height="340" src="https://www.youtube.com/embed/jlSa8ok0G-M"></iframe>
 
+
+    <h3>Mon équipe</h3> 
+    <% equipe.forEach(e => { %>
+        <!-- Insérer le code pour afficher les informations de l'équipe ici -->
+    <% }); %>
     <%- include('footer') %> <!-- Inclus le footer -->
 </body>
 </html>
